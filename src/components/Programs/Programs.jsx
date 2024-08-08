@@ -9,6 +9,10 @@ const Programs = () => {
     <div className='programs'>
       <div className='program'>
         <img src ={program_1} alt = "" />
+        <div className='caption'>
+            <img src = "" alt=""/>
+            <p>Graduate Degree</p>
+        </div>
       </div>
         <div className='program'>
         <img src ={program_2} alt = "" />
