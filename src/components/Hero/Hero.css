@@ -2,10 +2,10 @@
     width: 100%;
     min-height: 100vh;
     /* url add image */
-    /* background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)) url(/src/assets/akira-hojo-_86u_Y0oAaM-unsplash.jpg);
+    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url(/src/assets/akira-hojo-_86u_Y0oAaM-unsplash.jpg);
     background-size: cover;
     background-position: center;
-    color: #fff; */
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
