@@ -24,12 +24,21 @@ a {
 }
 
 .btn {
-  background: #f5f5f5;
-  color: #212121;
+  background: #020617;
+  color: #f8fafc;
   padding: 14px 25px;
   font-size: 16px;
   border-radius: 30px;
   cursor: pointer;
   border: 0 ;
   outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.btn img {
+  width: 20px;
+  margin-left: 10px;
+}
+

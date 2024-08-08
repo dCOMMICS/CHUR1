@@ -1,5 +1,6 @@
 import React from 'react'
 import './Hero.css'
+import dark_arrow from '../../assets/dark-arrow.png'
 
 const Hero = () => {
   return (
@@ -14,7 +15,7 @@ const Hero = () => {
         <p>
             Our cutting-edge curriculum is designed to empower students with knowledge, skills, and experiences needed to improve in the dynamic field of education.
         </p>
-        <button className='btn'>Explore more <img src='' alt='' /> </button>
+        <button className='btn'>Explore more <img src={dark_arrow} alt='arr' /> </button>
       </div>
     </div>
   )
