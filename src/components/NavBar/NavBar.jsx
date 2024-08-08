@@ -8,7 +8,7 @@ const NavBar = () => {
 
         {/* ADD IMAGES LATER WJEN URJ HAFLY DONE */}
         {/* {logo} on the src path */}
-      <img src = "" alt = "CHT LOGO"/>
+      <img src = "" alt = "CHT LOGO" className='logo'/>
       <ul> 
         <li>Home</li>
         <li>Program</li>
