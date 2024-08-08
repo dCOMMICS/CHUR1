@@ -4,7 +4,7 @@ import './NavBar.css'
 
 const NavBar = () => {
   return (
-    <nav>
+    <nav className='container'>
 
         {/* ADD IMAGES LATER WJEN URJ HAFLY DONE */}
         {/* {logo} on the src path */}
@@ -15,7 +15,7 @@ const NavBar = () => {
         <li>About us</li>
         <li>Campus</li>
         <li>Testimonials</li>
-        <li>Contact us</li>
+        <li> <button className='btn'>Contact us </button> </li>
       </ul>
     </nav>
   )
