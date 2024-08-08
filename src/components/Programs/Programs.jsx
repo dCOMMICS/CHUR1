@@ -28,7 +28,7 @@ const Programs = () => {
         <img src ={program_3} alt = "" />
         <div className='caption'>
             <img src = {program_icon_3} alt=""/>
-            <p>Bachelor Degree</p>
+            <p>Post Graduation</p>
         </div>
       </div>
     </div>
