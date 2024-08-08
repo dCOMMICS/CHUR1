@@ -10,7 +10,7 @@ const Hero = () => {
       <div className='hero-text'>
         <h1>
             {/* remember to change copy */}
-            We Ensure better eductation performance for a better world
+            We Ensure better education performance for a better world
         </h1>
         <p>
             Our cutting-edge curriculum is designed to empower students with knowledge, skills, and experiences needed to improve in the dynamic field of education.
