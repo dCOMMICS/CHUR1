@@ -1,12 +1,22 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './NavBar.css'
 // import logo
 
 const NavBar = () => {
-  return (
-    <nav className='container'>
+  // used for the navigation bar scrolling effects  Wird für die Scrolleffekte der Navigationsleiste verwendet.
 
-        {/* ADD IMAGES LATER WJEN URJ HAFLY DONE */}
+  const [sticky, setSticky] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener ('scroll', () => {
+      window.scrollY > 50 ? setSticky(true) : setSticky(false);
+    })
+  }, []);
+
+  return (
+    <nav className={`container ${sticky ?  'dark-nav' : ''}`} >
+
+        {/* Bild hinzufügen, wenn die Hälfte fertig ist*/}
         {/* {logo} on the src path */}
       <img src = "" alt = "CHT LOGO" className='logo'/>
       <ul> 
