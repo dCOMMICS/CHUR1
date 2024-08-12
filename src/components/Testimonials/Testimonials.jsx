@@ -8,10 +8,21 @@ import user_3 from '../../assets/user-3.png'
 import user_4 from '../../assets/user-4.png'
 
 const Testimonials = () => {
+
+    // this function is used on the arrows like clicking to see the next item.
+const slideForward = () => {
+
+}
+
+const slideBackward = () => {
+    
+}
+
+
     return (
         <div className='testimonials'>
-            <img src={next_icon} alt='' className='next-btn' />
-            <img src={back_icon} alt='' className='back-btn' />
+            <img src={next_icon} alt='' className='next-btn' onClick={slideForward} />
+            <img src={back_icon} alt='' className='back-btn' onClick={slideBackward} />
             <div className="slider">
                 <ul>
                     <li>
@@ -43,7 +54,7 @@ const Testimonials = () => {
                             <div className="user-info">
                                 <img src={user_3} alt='' />
                                 <div>
-                                    <h3>Emilly Jackson</h3>
+                                    <h3>Emily Jackson</h3>
                                     <span>New Jersey, USA</span>
                                 </div>
                             </div>
