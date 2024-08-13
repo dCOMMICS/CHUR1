@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './NavBar.css'
+import logo from '../../assets/rhodess.png'
 // import logo
 
 const NavBar = () => {
@@ -18,7 +19,7 @@ const NavBar = () => {
 
         {/* Bild hinzufügen, wenn die Hälfte fertig ist*/}
         {/* {logo} on the src path */}
-      <img src = "" alt = "CHT LOGO" className='logo'/>
+      <img src = {logo} alt = "CHT LOGO" className='logo'/>
       <ul> 
         <li>Home</li>
         <li>Program</li>
