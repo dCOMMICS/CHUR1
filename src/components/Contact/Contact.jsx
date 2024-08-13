@@ -4,6 +4,7 @@ import msg_icon from '../../assets/msg-icon.png'
 import email_icon from '../../assets/mail-icon.png'
 import tel_icon from '../../assets/phone-icon.png'
 import location_icon from '../../assets/location-icon.png' 
+import white_arrow from '../../assets/white-arrow.png'
 
 const Contact = () => {
   return (
@@ -19,7 +20,23 @@ const Contact = () => {
           <li> <img src={location_icon} alt=''/>77 Massachusetts Ave, Cambridge <br/> MA 02139, United States</li>
         </ul>
       </div>
-      <div className='contact-col'></div>
+      <div className='contact-col'>
+        <form>
+
+          <label>Your name</label>
+          <input type="text" name="name" placeholder="Enter your name" required/>
+
+          <label>Telephone Number</label>
+          <input type="tel" name="phone" placeholder="000-000-000" required/>
+
+          <label>Write your messages here</label>
+          <textarea name="message"rows="10" placeholder='Enter you Message' required></textarea>
+          <button type='submit' className='btn dark-btn'>Submit Now <img src={white_arrow} alt=''/></button>
+
+        </form>
+
+        <span>sending</span>
+      </div>
       
     </div>
   )
